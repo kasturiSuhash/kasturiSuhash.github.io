@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6 bg-transparent absolute w-full top-0">
+        <!-- Logo -->
+        <a href="index.html" class="text-black font-bold text-2xl">
+            <img src="logo.png" alt="Logo" class="h-10">
+        </a>
+        <ul class="flex space-x-6">
+            <li><a href="about.html" class="text-black hover:text-gray-600">About</a></li>
+            <li><a href="blog.html" class="text-black hover:text-gray-600">Blog</a></li>
+            <li><a href="projects.html" class="text-black hover:text-gray-600">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="flex flex-col items-center justify-center min-h-screen text-center">
+        <h1 class="text-5xl font-bold mb-6">SUHASH KASTURI</h1>
+        <p class="text-xl mb-6">A brief description about yourself. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="flex space-x-4 mb-8">
+            <!-- Social Media Icons -->
+            <a href="https://www.linkedin.com/in/suhash-kasturi/" class="text-black hover:text-gray-600">
+                <img src="linkedin.png" alt="LinkedIn" class="h-6">
+            </a>
+            <a href="https://github.com/kasturiSuhash" class="text-black hover:text-gray-600">
+                <img src="github.png" alt="GitHub" class="h-6">
+            </a>
+            <a href="https://www.instagram.com" class="text-black hover:text-gray-600">
+                <img src="instagram.png" alt="Instagram" class="h-6">
+            </a>
+        </div>
+        <div class="flex space-x-4">
+            <!-- Buttons -->
+            <a href="resume.pdf" class="btn bg-black text-white py-2 px-4 rounded hover:bg-gray-700">Resume</a>
+            <a href="contact.html" class="btn bg-white text-black py-2 px-4 rounded border border-black hover:bg-gray-100">Contact Me</a>
+        </div>
+    </section>
+
+    <footer class="text-center p-4 bg-black text-white">
+        <p>&copy; 2024 Suhash</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
